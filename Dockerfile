@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /obj
 
 # Copy the application code
 COPY . .
